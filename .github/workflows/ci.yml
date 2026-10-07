@@ -29,3 +29,11 @@ jobs:
       - name: Run tests with pytest
         run: |
           pytest
+          # 4. Automated Testing run karein (pytest)
+- name: Run tests with pytest
+  run: |
+    pytest
+# 4. Automated Testing run karein (pytest)
+- name: Run tests with pytest
+  run: |
+    pytest test_app.py
